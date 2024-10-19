@@ -23,6 +23,13 @@ export function getCssForMarkup(markup: string, config: TailwindConfig | undefin
       preflight: false,
       ...corePlugins,
     },
+
+    // avoid bug when text contains words like `container`
+    // @link {https://github.com/vue-email/vue-email/issues/198} - issue #198
+    // @see {https://tailwindcss.com/docs/content-configuration#discarding-classes} - explanation from Tailwind
+    blocklist: [
+      'container',
+    ],
   }
 
   const processor = postcss([
