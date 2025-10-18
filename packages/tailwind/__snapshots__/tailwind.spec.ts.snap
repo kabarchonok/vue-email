@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tailwind > inline styles > should render @media and other classes 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><div class="md:w-100 sm:w-50" style="width:150px;"></div>"`;
+
+exports[`Tailwind > inline styles > should render @media classes 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><div class="md:w-100 sm:w-50" style=""></div>"`;
+
+exports[`Tailwind > inline styles > should render @media classes and inline other styles 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><div class="md:w-100 sm:w-50" style="width:150px;"></div>"`;
+
+exports[`Tailwind > inline styles > should render arbitrary value classes 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><div style="width:100px;color:#ccc;"></div>"`;
+
+exports[`Tailwind > inline styles > should render simple utility classes 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><div style="display:flex;flex:1;flex-direction:column;"></div>"`;
+
+exports[`Tailwind > tags render > should render single tags correctly 1`] = `"<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><address>Best regards,<br>John Smith<br>john@example.com</address>"`;
